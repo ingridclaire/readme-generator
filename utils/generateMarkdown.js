@@ -3,9 +3,9 @@
 function renderLicenseBadge(license) {
   switch(license) {
     case 'MIT':
-      return [!['License: MIT']('https://img.shields.io/badge/License-MIT-yellow.svg')]('https://opensource.org/licenses/MIT')
+      return [![License]('https://img.shields.io/badge/License-MIT-yellow.svg')]('https://opensource.org/licenses/MIT')
     case 'Apache 2.0':
-      return [!['License']('https://img.shields.io/badge/License-Apache%202.0-blue.svg')]('https://opensource.org/licenses/Apache-2.0')
+      return [![License]('https://img.shields.io/badge/License-Apache%202.0-blue.svg')]('https://opensource.org/licenses/Apache-2.0')
   }
 }
 
@@ -47,7 +47,7 @@ For more information about me, find me on [GitHub](https://github.com/${data.git
 Please reach out to me at ${data.email} with any questions!
 
 ## License
-${renderLicenseBadge(data.license)}
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 `;
 }
 
