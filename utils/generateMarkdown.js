@@ -3,9 +3,13 @@
 function renderLicenseBadge(license) {
   switch(license) {
     case 'MIT':
-      return [![License]('https://img.shields.io/badge/License-MIT-yellow.svg')]('https://opensource.org/licenses/MIT')
+      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
     case 'Apache 2.0':
-      return [![License]('https://img.shields.io/badge/License-Apache%202.0-blue.svg')]('https://opensource.org/licenses/Apache-2.0')
+      return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+    case 'GNU GPL v3':
+      return `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)`
+    case 'Mozilla Public License 2.0':
+      return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
   }
 }
 
@@ -44,6 +48,7 @@ ${data.contributing}
 
 ## Questions
 For more information about me, find me on [GitHub](https://github.com/${data.github})
+
 Please reach out to me at ${data.email} with any questions!
 
 ## License
