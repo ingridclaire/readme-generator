@@ -52,7 +52,7 @@ For more information about me, find me on [GitHub](https://github.com/${data.git
 Please reach out to me at ${data.email} with any questions!
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+${renderLicenseBadge(data.license)}
 `;
 }
 
